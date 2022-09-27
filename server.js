@@ -1,6 +1,6 @@
 const rp = require("request-promise");
 const $ = require("cheerio");
-const url = "https://www.cangokceaslan.com";
+var url = "https://www.cankaya-osman-12345.com";
 const express = require("express");
 var port = 3000;
 var app = express();
