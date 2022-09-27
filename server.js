@@ -6,6 +6,7 @@ var port = 3000;
 var app = express();
 var wikiUrls1 = "";
 // cankayaosman branch'ine aittir.
+//pull request changes
 rp(url)
   .then(function (html) {
     //success!
