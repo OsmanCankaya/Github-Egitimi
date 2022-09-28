@@ -6,8 +6,9 @@ const express = require("express");
 var port = 3000;
 var app = express();
 var wikiUrls1 = "";
-// cankayaosman branch'ine aittir.
-//pull request changes
+var stash =false;
+var stash1 = true;
+var stahs2 = "Çankaya Osman";
 rp(url)
   .then(function (html) {
     //success!
